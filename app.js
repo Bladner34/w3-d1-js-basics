@@ -1,9 +1,8 @@
 // const firstName, let score, const isActive, const tags = ['js','week3']//
-const person = {firstName: "brittnee"};
+const person = {
+    firstName: "brittnee",
+    isActive: true,
+    favoriteColor: "blue",
+};
 let score = 34; 
-const isActive; 
-const user = {
-    id: 1, 
-    favoriteColor: "blue", 
-}
-console.log(user[favoriteColor]); 
+console.log(person.favoriteColor); //not showing up on console//
